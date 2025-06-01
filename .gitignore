@@ -192,3 +192,14 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ETL Data files
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.avro
+!tests/fixtures/sample_*.csv
+!tests/fixtures/sample_*.xlsx
