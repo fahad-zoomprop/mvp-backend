@@ -4,13 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-sqlalchemy = "*"
-pandas = "*"
-psycopg2-binary = "*"
-pytest = "*"
-python-dotenv = "*"
+numpy = ">=2.2.6"
+pandas = ">=2.2.3"
+psycopg2-binary = ">=2.9.10"
+python-dotenv = ">=1.1.0"
+sqlalchemy = ">=2.0.41"
 
 [dev-packages]
+pytest = ">=8.3.5"
+pytest-cov = ">=6.1.1"
 
 [requires]
 python_version = "3.13"
